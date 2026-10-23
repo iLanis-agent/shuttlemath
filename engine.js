@@ -29,24 +29,24 @@ var _MG = "the miles a gallon must be from 1 to 100 with no decimal places";
 var _PR = "the fuel price must be from 0.01 to 99.99 with up to 2 decimal places";
 
 function runsTruth(riders, seats) {
-  var r = _i(riders, _RD, 5, 1, 100000), s = _i(seats, _ST, 3, 1, 100);
+  var r = _i(riders, _RD, 6, 1, 100000), s = _i(seats, _ST, 3, 1, 100);
   var k = Math.floor((r + s - 1) / s), last = r - (k - 1) * s;
   return "The " + _pl(r, " rider", " riders") + " at " + _pl(s, " seat", " seats") + " a run make " + _pl(k, " run", " runs") + ", the last run carrying " + last + ".";
 }
 function spanTruth(riders, seats, roundMin, gapMin) {
-  var r = _i(riders, _RD, 5, 1, 100000), s = _i(seats, _ST, 3, 1, 100), q = _i(roundMin, _RM, 3, 1, 600), g = _i(gapMin, _GM, 3, 0, 120);
+  var r = _i(riders, _RD, 6, 1, 100000), s = _i(seats, _ST, 3, 1, 100), q = _i(roundMin, _RM, 3, 1, 600), g = _i(gapMin, _GM, 3, 0, 120);
   var k = Math.floor((r + s - 1) / s), tot = k * q + (k - 1) * g;
   var h = Math.floor(tot / 60), m = tot % 60;
   return "The " + _pl(k, " run", " runs") + " at " + _pl(q, " minute", " minutes") + " a round trip with " + _pl(k - 1, " turnaround", " turnarounds") + " of " + _pl(g, " minute", " minutes") + " take " + tot + " minutes, " + _pl(h, " hour", " hours") + " " + _pl(m, " minute", " minutes") + ".";
 }
 function mileageTruth(riders, seats, roundMiles, mpg) {
-  var r = _i(riders, _RD, 5, 1, 100000), s = _i(seats, _ST, 3, 1, 100), mi = _i(roundMiles, _MI, 3, 1, 500), g = _i(mpg, _MG, 3, 1, 100);
+  var r = _i(riders, _RD, 6, 1, 100000), s = _i(seats, _ST, 3, 1, 100), mi = _i(roundMiles, _MI, 3, 1, 500), g = _i(mpg, _MG, 3, 1, 100);
   var k = Math.floor((r + s - 1) / s), tm = k * mi;
   var g2 = Math.floor((200 * tm + g) / (2 * g));
   return "The " + _pl(k, " run", " runs") + " of " + _pl(mi, " mile", " miles") + " cover " + _pl(tm, " mile", " miles") + ", and at " + _pl(g, " mile", " miles") + " a gallon that is " + _dec(g2, 2) + " " + (g2 === 100 ? "gallon" : "gallons") + ".";
 }
 function costTruth(riders, seats, roundMiles, mpg, price) {
-  var r = _i(riders, _RD, 5, 1, 100000), s = _i(seats, _ST, 3, 1, 100), mi = _i(roundMiles, _MI, 3, 1, 500), g = _i(mpg, _MG, 3, 1, 100), p = _p(price, _PR, 2, 2, 1, 9999);
+  var r = _i(riders, _RD, 6, 1, 100000), s = _i(seats, _ST, 3, 1, 100), mi = _i(roundMiles, _MI, 3, 1, 500), g = _i(mpg, _MG, 3, 1, 100), p = _p(price, _PR, 2, 2, 1, 9999);
   var k = Math.floor((r + s - 1) / s), tm = k * mi;
   var cc = Math.floor((2 * tm * p + g) / (2 * g));
   var pr = Math.floor((2 * cc + r) / (2 * r));
