@@ -1,0 +1,1091 @@
+{
+ "cases": [
+  {
+   "fn": "runs",
+   "args": [
+    "116",
+    "24"
+   ],
+   "expect": "The 116 riders at 24 seats a run make 5 runs, the last run carrying 20."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "116",
+    "24",
+    "40",
+    "10"
+   ],
+   "expect": "The 5 runs at 40 minutes a round trip with 4 turnarounds of 10 minutes take 240 minutes, 4 hours 0 minutes."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "116",
+    "24",
+    "18",
+    "22"
+   ],
+   "expect": "The 5 runs of 18 miles cover 90 miles, and at 22 miles a gallon that is 4.09 gallons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "116",
+    "24",
+    "18",
+    "22",
+    "3.85"
+   ],
+   "expect": "The 90 miles at 22 miles a gallon and $3.85 a gallon come to $15.75, $0.14 a rider."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "1",
+    "1"
+   ],
+   "expect": "The 1 rider at 1 seat a run make 1 run, the last run carrying 1."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "120",
+    "24"
+   ],
+   "expect": "The 120 riders at 24 seats a run make 5 runs, the last run carrying 24."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "1",
+    "1",
+    "1",
+    "0"
+   ],
+   "expect": "The 1 run at 1 minute a round trip with 0 turnarounds of 0 minutes take 1 minutes, 0 hours 1 minute."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "1",
+    "1",
+    "1",
+    "1"
+   ],
+   "expect": "The 1 run of 1 mile cover 1 mile, and at 1 mile a gallon that is 1 gallon."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "24",
+    "24",
+    "22",
+    "22"
+   ],
+   "expect": "The 1 run of 22 miles cover 22 miles, and at 22 miles a gallon that is 1 gallon."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "0.01"
+   ],
+   "expect": "The 1 mile at 1 mile a gallon and $0.01 a gallon come to $0.01, $0.01 a rider."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "22538",
+    "64"
+   ],
+   "expect": "The 22538 riders at 64 seats a run make 353 runs, the last run carrying 10."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "88095",
+    "47"
+   ],
+   "expect": "The 88095 riders at 47 seats a run make 1875 runs, the last run carrying 17."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "93657",
+    "42"
+   ],
+   "expect": "The 93657 riders at 42 seats a run make 2230 runs, the last run carrying 39."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "72432",
+    "64"
+   ],
+   "expect": "The 72432 riders at 64 seats a run make 1132 runs, the last run carrying 48."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "93820",
+    "58"
+   ],
+   "expect": "The 93820 riders at 58 seats a run make 1618 runs, the last run carrying 34."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "89724",
+    "23"
+   ],
+   "expect": "The 89724 riders at 23 seats a run make 3902 runs, the last run carrying 1."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "79976",
+    "11"
+   ],
+   "expect": "The 79976 riders at 11 seats a run make 7271 runs, the last run carrying 6."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "34713",
+    "16"
+   ],
+   "expect": "The 34713 riders at 16 seats a run make 2170 runs, the last run carrying 9."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "57620",
+    "94"
+   ],
+   "expect": "The 57620 riders at 94 seats a run make 613 runs, the last run carrying 92."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "19964",
+    "81"
+   ],
+   "expect": "The 19964 riders at 81 seats a run make 247 runs, the last run carrying 38."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "28473",
+    "16"
+   ],
+   "expect": "The 28473 riders at 16 seats a run make 1780 runs, the last run carrying 9."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "31419",
+    "36"
+   ],
+   "expect": "The 31419 riders at 36 seats a run make 873 runs, the last run carrying 27."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "99837",
+    "90"
+   ],
+   "expect": "The 99837 riders at 90 seats a run make 1110 runs, the last run carrying 27."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "14467",
+    "79"
+   ],
+   "expect": "The 14467 riders at 79 seats a run make 184 runs, the last run carrying 10."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "32387",
+    "16"
+   ],
+   "expect": "The 32387 riders at 16 seats a run make 2025 runs, the last run carrying 3."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "77014",
+    "61"
+   ],
+   "expect": "The 77014 riders at 61 seats a run make 1263 runs, the last run carrying 32."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "93945",
+    "93"
+   ],
+   "expect": "The 93945 riders at 93 seats a run make 1011 runs, the last run carrying 15."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "99592",
+    "74"
+   ],
+   "expect": "The 99592 riders at 74 seats a run make 1346 runs, the last run carrying 62."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "90088",
+    "23"
+   ],
+   "expect": "The 90088 riders at 23 seats a run make 3917 runs, the last run carrying 20."
+  },
+  {
+   "fn": "runs",
+   "args": [
+    "52270",
+    "41"
+   ],
+   "expect": "The 52270 riders at 41 seats a run make 1275 runs, the last run carrying 36."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "52547",
+    "85",
+    "204",
+    "35"
+   ],
+   "expect": "The 619 runs at 204 minutes a round trip with 618 turnarounds of 35 minutes take 147906 minutes, 2465 hours 6 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "87575",
+    "69",
+    "368",
+    "27"
+   ],
+   "expect": "The 1270 runs at 368 minutes a round trip with 1269 turnarounds of 27 minutes take 501623 minutes, 8360 hours 23 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "84892",
+    "67",
+    "578",
+    "82"
+   ],
+   "expect": "The 1268 runs at 578 minutes a round trip with 1267 turnarounds of 82 minutes take 836798 minutes, 13946 hours 38 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "63062",
+    "10",
+    "209",
+    "94"
+   ],
+   "expect": "The 6307 runs at 209 minutes a round trip with 6306 turnarounds of 94 minutes take 1910927 minutes, 31848 hours 47 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "61806",
+    "89",
+    "469",
+    "30"
+   ],
+   "expect": "The 695 runs at 469 minutes a round trip with 694 turnarounds of 30 minutes take 346775 minutes, 5779 hours 35 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "13250",
+    "43",
+    "268",
+    "110"
+   ],
+   "expect": "The 309 runs at 268 minutes a round trip with 308 turnarounds of 110 minutes take 116692 minutes, 1944 hours 52 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "91211",
+    "59",
+    "371",
+    "32"
+   ],
+   "expect": "The 1546 runs at 371 minutes a round trip with 1545 turnarounds of 32 minutes take 623006 minutes, 10383 hours 26 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "9270",
+    "32",
+    "402",
+    "5"
+   ],
+   "expect": "The 290 runs at 402 minutes a round trip with 289 turnarounds of 5 minutes take 118025 minutes, 1967 hours 5 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "11333",
+    "80",
+    "359",
+    "105"
+   ],
+   "expect": "The 142 runs at 359 minutes a round trip with 141 turnarounds of 105 minutes take 65783 minutes, 1096 hours 23 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "37468",
+    "54",
+    "329",
+    "1"
+   ],
+   "expect": "The 694 runs at 329 minutes a round trip with 693 turnarounds of 1 minute take 229019 minutes, 3816 hours 59 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "46389",
+    "63",
+    "98",
+    "77"
+   ],
+   "expect": "The 737 runs at 98 minutes a round trip with 736 turnarounds of 77 minutes take 128898 minutes, 2148 hours 18 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "70366",
+    "100",
+    "347",
+    "94"
+   ],
+   "expect": "The 704 runs at 347 minutes a round trip with 703 turnarounds of 94 minutes take 310370 minutes, 5172 hours 50 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "17048",
+    "10",
+    "545",
+    "111"
+   ],
+   "expect": "The 1705 runs at 545 minutes a round trip with 1704 turnarounds of 111 minutes take 1118369 minutes, 18639 hours 29 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "1566",
+    "89",
+    "171",
+    "104"
+   ],
+   "expect": "The 18 runs at 171 minutes a round trip with 17 turnarounds of 104 minutes take 4846 minutes, 80 hours 46 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "15047",
+    "13",
+    "445",
+    "37"
+   ],
+   "expect": "The 1158 runs at 445 minutes a round trip with 1157 turnarounds of 37 minutes take 558119 minutes, 9301 hours 59 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "76570",
+    "93",
+    "569",
+    "7"
+   ],
+   "expect": "The 824 runs at 569 minutes a round trip with 823 turnarounds of 7 minutes take 474617 minutes, 7910 hours 17 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "96544",
+    "30",
+    "531",
+    "49"
+   ],
+   "expect": "The 3219 runs at 531 minutes a round trip with 3218 turnarounds of 49 minutes take 1866971 minutes, 31116 hours 11 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "66546",
+    "58",
+    "52",
+    "53"
+   ],
+   "expect": "The 1148 runs at 52 minutes a round trip with 1147 turnarounds of 53 minutes take 120487 minutes, 2008 hours 7 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "39744",
+    "75",
+    "371",
+    "3"
+   ],
+   "expect": "The 530 runs at 371 minutes a round trip with 529 turnarounds of 3 minutes take 198217 minutes, 3303 hours 37 minutes."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "8135",
+    "23",
+    "88",
+    "16"
+   ],
+   "expect": "The 354 runs at 88 minutes a round trip with 353 turnarounds of 16 minutes take 36800 minutes, 613 hours 20 minutes."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "25235",
+    "50",
+    "203",
+    "10"
+   ],
+   "expect": "The 505 runs of 203 miles cover 102515 miles, and at 10 miles a gallon that is 10251.5 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "18968",
+    "68",
+    "402",
+    "9"
+   ],
+   "expect": "The 279 runs of 402 miles cover 112158 miles, and at 9 miles a gallon that is 12462 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "52377",
+    "2",
+    "155",
+    "84"
+   ],
+   "expect": "The 26189 runs of 155 miles cover 4059295 miles, and at 84 miles a gallon that is 48324.94 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "41204",
+    "33",
+    "178",
+    "50"
+   ],
+   "expect": "The 1249 runs of 178 miles cover 222322 miles, and at 50 miles a gallon that is 4446.44 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "12150",
+    "84",
+    "435",
+    "59"
+   ],
+   "expect": "The 145 runs of 435 miles cover 63075 miles, and at 59 miles a gallon that is 1069.07 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "1265",
+    "13",
+    "403",
+    "31"
+   ],
+   "expect": "The 98 runs of 403 miles cover 39494 miles, and at 31 miles a gallon that is 1274 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "28564",
+    "68",
+    "4",
+    "48"
+   ],
+   "expect": "The 421 runs of 4 miles cover 1684 miles, and at 48 miles a gallon that is 35.08 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "75232",
+    "85",
+    "255",
+    "10"
+   ],
+   "expect": "The 886 runs of 255 miles cover 225930 miles, and at 10 miles a gallon that is 22593 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "78087",
+    "56",
+    "119",
+    "76"
+   ],
+   "expect": "The 1395 runs of 119 miles cover 166005 miles, and at 76 miles a gallon that is 2184.28 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "78463",
+    "53",
+    "396",
+    "82"
+   ],
+   "expect": "The 1481 runs of 396 miles cover 586476 miles, and at 82 miles a gallon that is 7152.15 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "58149",
+    "12",
+    "477",
+    "40"
+   ],
+   "expect": "The 4846 runs of 477 miles cover 2311542 miles, and at 40 miles a gallon that is 57788.55 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "40484",
+    "45",
+    "418",
+    "1"
+   ],
+   "expect": "The 900 runs of 418 miles cover 376200 miles, and at 1 mile a gallon that is 376200 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "42937",
+    "49",
+    "446",
+    "80"
+   ],
+   "expect": "The 877 runs of 446 miles cover 391142 miles, and at 80 miles a gallon that is 4889.28 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "78603",
+    "94",
+    "131",
+    "95"
+   ],
+   "expect": "The 837 runs of 131 miles cover 109647 miles, and at 95 miles a gallon that is 1154.18 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "2060",
+    "77",
+    "127",
+    "34"
+   ],
+   "expect": "The 27 runs of 127 miles cover 3429 miles, and at 34 miles a gallon that is 100.85 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "26475",
+    "92",
+    "228",
+    "8"
+   ],
+   "expect": "The 288 runs of 228 miles cover 65664 miles, and at 8 miles a gallon that is 8208 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "32539",
+    "14",
+    "257",
+    "88"
+   ],
+   "expect": "The 2325 runs of 257 miles cover 597525 miles, and at 88 miles a gallon that is 6790.06 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "36215",
+    "69",
+    "206",
+    "51"
+   ],
+   "expect": "The 525 runs of 206 miles cover 108150 miles, and at 51 miles a gallon that is 2120.59 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "88010",
+    "38",
+    "426",
+    "33"
+   ],
+   "expect": "The 2317 runs of 426 miles cover 987042 miles, and at 33 miles a gallon that is 29910.36 gallons."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "21489",
+    "30",
+    "352",
+    "32"
+   ],
+   "expect": "The 717 runs of 352 miles cover 252384 miles, and at 32 miles a gallon that is 7887 gallons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57005",
+    "40",
+    "426",
+    "71",
+    "86.37"
+   ],
+   "expect": "The 607476 miles at 71 miles a gallon and $86.37 a gallon come to $738981.72, $12.96 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "95614",
+    "43",
+    "3",
+    "46",
+    "29.88"
+   ],
+   "expect": "The 6672 miles at 46 miles a gallon and $29.88 a gallon come to $4333.9, $0.05 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "89202",
+    "70",
+    "100",
+    "14",
+    "31.17"
+   ],
+   "expect": "The 127500 miles at 14 miles a gallon and $31.17 a gallon come to $283869.64, $3.18 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38929",
+    "39",
+    "445",
+    "35",
+    "91.29"
+   ],
+   "expect": "The 444555 miles at 35 miles a gallon and $91.29 a gallon come to $1159526.46, $29.79 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "57766",
+    "52",
+    "14",
+    "14",
+    "84.98"
+   ],
+   "expect": "The 15554 miles at 14 miles a gallon and $84.98 a gallon come to $94412.78, $1.63 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "74325",
+    "84",
+    "187",
+    "100",
+    "77.78"
+   ],
+   "expect": "The 165495 miles at 100 miles a gallon and $77.78 a gallon come to $128722.01, $1.73 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "38568",
+    "66",
+    "370",
+    "86",
+    "84.73"
+   ],
+   "expect": "The 216450 miles at 86 miles a gallon and $84.73 a gallon come to $213253.59, $5.53 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "75475",
+    "65",
+    "34",
+    "21",
+    "11.48"
+   ],
+   "expect": "The 39508 miles at 21 miles a gallon and $11.48 a gallon come to $21597.71, $0.29 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "68282",
+    "44",
+    "254",
+    "32",
+    "83.04"
+   ],
+   "expect": "The 394208 miles at 32 miles a gallon and $83.04 a gallon come to $1022969.76, $14.98 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "49389",
+    "36",
+    "427",
+    "63",
+    "75.94"
+   ],
+   "expect": "The 585844 miles at 63 miles a gallon and $75.94 a gallon come to $706174.5, $14.3 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "81423",
+    "76",
+    "289",
+    "15",
+    "28.72"
+   ],
+   "expect": "The 309808 miles at 15 miles a gallon and $28.72 a gallon come to $593179.05, $7.29 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "62656",
+    "89",
+    "387",
+    "41",
+    "79.73"
+   ],
+   "expect": "The 272448 miles at 41 miles a gallon and $79.73 a gallon come to $529811.68, $8.46 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "41174",
+    "32",
+    "428",
+    "83",
+    "49.83"
+   ],
+   "expect": "The 550836 miles at 83 miles a gallon and $49.83 a gallon come to $330700.7, $8.03 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "83026",
+    "90",
+    "310",
+    "78",
+    "95.07"
+   ],
+   "expect": "The 286130 miles at 78 miles a gallon and $95.07 a gallon come to $348748.45, $4.2 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "90455",
+    "21",
+    "164",
+    "3",
+    "34.96"
+   ],
+   "expect": "The 706512 miles at 3 miles a gallon and $34.96 a gallon come to $8233219.84, $91.02 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "33527",
+    "12",
+    "495",
+    "18",
+    "51.32"
+   ],
+   "expect": "The 1383030 miles at 18 miles a gallon and $51.32 a gallon come to $3943172.2, $117.61 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50027",
+    "23",
+    "256",
+    "18",
+    "93.28"
+   ],
+   "expect": "The 557056 miles at 18 miles a gallon and $93.28 a gallon come to $2886787.98, $57.7 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "31495",
+    "8",
+    "464",
+    "3",
+    "51.62"
+   ],
+   "expect": "The 1826768 miles at 3 miles a gallon and $51.62 a gallon come to $31432588.05, $998.02 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "59647",
+    "6",
+    "423",
+    "91",
+    "48.95"
+   ],
+   "expect": "The 4205466 miles at 91 miles a gallon and $48.95 a gallon come to $2262171, $37.93 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "30776",
+    "99",
+    "284",
+    "42",
+    "6.11"
+   ],
+   "expect": "The 88324 miles at 42 miles a gallon and $6.11 a gallon come to $12849.04, $0.42 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "11146",
+    "9",
+    "175",
+    "88",
+    "46.52"
+   ],
+   "expect": "The 216825 miles at 88 miles a gallon and $46.52 a gallon come to $114621.58, $10.28 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "84598",
+    "34",
+    "420",
+    "76",
+    "47.3"
+   ],
+   "expect": "The 1045380 miles at 76 miles a gallon and $47.3 a gallon come to $650611.5, $7.69 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "768",
+    "57",
+    "436",
+    "66",
+    "9.49"
+   ],
+   "expect": "The 6104 miles at 66 miles a gallon and $9.49 a gallon come to $877.68, $1.14 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "50203",
+    "52",
+    "111",
+    "23",
+    "95.97"
+   ],
+   "expect": "The 107226 miles at 23 miles a gallon and $95.97 a gallon come to $447412.14, $8.91 a rider."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "126",
+    "85",
+    "338",
+    "61",
+    "95.7"
+   ],
+   "expect": "The 676 miles at 61 miles a gallon and $95.7 a gallon come to $1060.54, $8.42 a rider."
+  }
+ ],
+ "errors": [
+  [
+   "runs",
+   [
+    "0",
+    "24"
+   ]
+  ],
+  [
+   "runs",
+   [
+    "100001",
+    "24"
+   ]
+  ],
+  [
+   "runs",
+   [
+    "3.5",
+    "24"
+   ]
+  ],
+  [
+   "runs",
+   [
+    "116",
+    "0"
+   ]
+  ],
+  [
+   "runs",
+   [
+    "116",
+    "101"
+   ]
+  ],
+  [
+   "runs",
+   [
+    "116",
+    "x"
+   ]
+  ],
+  [
+   "span",
+   [
+    "116",
+    "24",
+    "0",
+    "10"
+   ]
+  ],
+  [
+   "span",
+   [
+    "116",
+    "24",
+    "601",
+    "10"
+   ]
+  ],
+  [
+   "span",
+   [
+    "116",
+    "24",
+    "40",
+    "121"
+   ]
+  ],
+  [
+   "span",
+   [
+    "116",
+    "24",
+    "40",
+    "-1"
+   ]
+  ],
+  [
+   "mileage",
+   [
+    "116",
+    "24",
+    "0",
+    "22"
+   ]
+  ],
+  [
+   "mileage",
+   [
+    "116",
+    "24",
+    "501",
+    "22"
+   ]
+  ],
+  [
+   "mileage",
+   [
+    "116",
+    "24",
+    "18",
+    "0"
+   ]
+  ],
+  [
+   "mileage",
+   [
+    "116",
+    "24",
+    "18",
+    "101"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "116",
+    "24",
+    "18",
+    "22",
+    "0"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "116",
+    "24",
+    "18",
+    "22",
+    "100"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "116",
+    "24",
+    "18",
+    "22",
+    "3.855"
+   ]
+  ],
+  [
+   "cost",
+   [
+    "116",
+    "24",
+    "18",
+    "22",
+    "x"
+   ]
+  ]
+ ]
+}
