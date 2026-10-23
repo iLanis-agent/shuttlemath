@@ -99,6 +99,45 @@
   {
    "fn": "runs",
    "args": [
+    "100000",
+    "100"
+   ],
+   "expect": "The 100000 riders at 100 seats a run make 1000 runs, the last run carrying 100."
+  },
+  {
+   "fn": "span",
+   "args": [
+    "100000",
+    "100",
+    "600",
+    "120"
+   ],
+   "expect": "The 1000 runs at 600 minutes a round trip with 999 turnarounds of 120 minutes take 719880 minutes, 11998 hours 0 minutes."
+  },
+  {
+   "fn": "mileage",
+   "args": [
+    "100000",
+    "100",
+    "500",
+    "100"
+   ],
+   "expect": "The 1000 runs of 500 miles cover 500000 miles, and at 100 miles a gallon that is 5000 gallons."
+  },
+  {
+   "fn": "cost",
+   "args": [
+    "100000",
+    "100",
+    "500",
+    "100",
+    "99.99"
+   ],
+   "expect": "The 500000 miles at 100 miles a gallon and $99.99 a gallon come to $499950, $5 a rider."
+  },
+  {
+   "fn": "runs",
+   "args": [
     "22538",
     "64"
    ],
