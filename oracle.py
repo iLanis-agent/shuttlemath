@@ -34,6 +34,10 @@ cases = [
  dict(fn="mileage", args=["1","1","1","1"], expect=mileage(1,1,1,1)),
  dict(fn="mileage", args=["24","24","22","22"], expect=mileage(24,24,22,22)),
  dict(fn="cost", args=["1","1","1","1","0.01"], expect=cost(1,1,1,1,1)),
+ dict(fn="runs", args=["100000","100"], expect=runs(100000,100)),
+ dict(fn="span", args=["100000","100","600","120"], expect=span(100000,100,600,120)),
+ dict(fn="mileage", args=["100000","100","500","100"], expect=mileage(100000,100,500,100)),
+ dict(fn="cost", args=["100000","100","500","100","99.99"], expect=cost(100000,100,500,100,9999)),
 ]
 for _ in range(20):
     r,s=R(1,100000),R(1,100); cases.append(dict(fn="runs", args=[str(r),str(s)], expect=runs(r,s)))
